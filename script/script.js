@@ -35,6 +35,10 @@ const showOption = (option) => {
 
 const selectOption = (option) => {
   const nextTextNodeId = option.nextText;
+  //////////////if-statement has to be changed as soon as I have more than 2 questions///////////////////////
+  if (nextTextNodeId > 2) {
+    return startGame();
+  }
   state = Object.assign(state, option.setState);
   showTextNode(nextTextNodeId);
 };
