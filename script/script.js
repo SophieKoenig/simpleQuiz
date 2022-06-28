@@ -1,5 +1,5 @@
 //video https://www.youtube.com/watch?v=R1S_NhKkvGA
-//minute 11:39
+//minute
 
 const textElement = document.getElementById("text");
 const optionButtonsElement = document.getElementById("option-buttons");
@@ -34,6 +34,7 @@ const showOption = (option) => {
 };
 
 const selectOption = (option) => {
+  //btn.style.backgroundColor = "green";
   const nextTextNodeId = option.nextText;
   //////////////if-statement has to be changed as soon as I have more than 2 questions///////////////////////
   if (nextTextNodeId > 2) {
