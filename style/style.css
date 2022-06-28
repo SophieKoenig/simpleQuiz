@@ -19,7 +19,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: hsl(var(--hue), 1%, 16%);
+  background-color: hsl(var(--hue), 1%, 18%);
   /*by default hue is depended on "--hue-neutral"*/
 }
 
@@ -48,8 +48,8 @@ body.wrong {
 
 .btn {
   --hue: var(--hue-neutral);
-  background-color: hsl(var(--hue), 100%, 80%);
-  border: 1px solid hsl(var(--hue), 100%, 60%);
+  background-color: hsl(var(--hue), 100%, 86%);
+  border: 1px solid hsl(var(--hue), 100%, 66%);
   border-radius: 5px;
   padding: 5px 10px;
   color: black;
